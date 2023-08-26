@@ -1,0 +1,9 @@
+body {
+  margin : 0;
+  padding: 0;
+}
+
+#root,
+#root-master {
+  height: 100vh;
+}

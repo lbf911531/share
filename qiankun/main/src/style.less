@@ -1,0 +1,34 @@
+.system-entry {
+  display           : flex;
+  height            : 100%;
+  @global-background: #e8e8e8;
+
+  .lt-side-menu-wrap {
+    max-width: 200px;
+  }
+
+  .rt-content-wrap {
+    flex            : 1 1 0;
+    background-color: @global-background;
+    display         : flex;
+    flex-direction  : column;
+    transition: width 0.3s ease-in-out;
+
+    .global-header {
+      height: 54px;
+    }
+
+    .global-footer {
+      height: 30px;
+    }
+
+    .global-content {
+      flex    : 1;
+      overflow: auto;
+    }
+  }
+
+  .extra-group-wrap {
+    position: absolute;
+  }
+}
