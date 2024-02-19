@@ -1,0 +1,86 @@
+:global {
+  .cs-dg-editor-wrap {
+    display         : flex;
+    @default-padding: 8px;
+    padding         : @default-padding;
+
+    .cs-dg-editor-lt-subtree,
+    .cs-dg-editor-rt-subtree {
+      width         : 20%;
+      display       : flex;
+      flex-direction: column;
+
+      .subtree-title {
+        font-weight  : 600;
+        line-height  : 1.5;
+        white-space  : nowrap;
+        text-overflow: ellipsis;
+
+        &:not(:empty) {
+          margin-bottom: 4px;
+        }
+      }
+
+      .cs-dg-editor-vl-wrap {
+        overflow: hidden auto;
+      }
+
+      .draggable-node {
+        padding         : 5px @default-padding;
+        margin-bottom   : 4px;
+        border-radius   : 2px;
+        box-shadow      : none;
+        user-select     : none;
+        cursor          : grab;
+        white-space     : nowrap;
+        text-overflow   : ellipsis;
+        overflow        : hidden;
+        &:hover {
+          background-color: rgba(36, 116, 255, 0.1);
+        }
+      }
+    }
+
+    .cs-dg-editor-ct-wrap {
+      flex   : 1;
+      padding: 0 8px;
+
+      .edit-box {
+        height: 100%;
+
+        &>div {
+          .w-e-text-container {
+            & p {
+              margin: 4px 0;
+            }
+          }
+        }
+
+        .w-e-toolbar,
+        .w-e-hover-bar {
+          display: none;
+        }
+
+        .monaco-editor {
+          .monaco-editor-background {
+            .view-overlays {
+              .current-line {
+                border: none;
+              }
+            }
+          }
+
+          .suggest-widget {
+            width: 200px;
+          }
+
+          .unicode-highlight {
+            border    : 1px solid red;
+            background: rgba(255, 0, 0, 0.3);
+          }
+        }
+      }
+    }
+
+  }
+}
