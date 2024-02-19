@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#95bca7",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "selectedColor": "#95bca7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/icons/ico11.png",
+        "iconWidth": "36px",
+        "selectedIconPath": "/static/icons/ico10.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "我的",
+        "iconPath": "/static/icons/ico21.png",
+        "iconWidth": "36px",
+        "selectedIconPath": "/static/icons/ico20.png"
+      }
+    ]
+  },
+  "permission": {},
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

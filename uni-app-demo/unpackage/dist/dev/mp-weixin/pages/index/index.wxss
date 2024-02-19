@@ -1,0 +1,11 @@
+
+.uni-page-home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.append-bill-dialog .uni-forms-item {
+	width: 400rpx;
+}
+

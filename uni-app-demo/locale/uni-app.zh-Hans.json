@@ -1,0 +1,19 @@
+{
+	"uni.msg.cancel": "取消",
+	"uni.msg.confirm": "确定",
+	"uni.msg.bill.add": "记账",
+	"uni.msg.item": "条目",
+	"uni.msg.amount": "金额",
+	"uni.msg.please.enter": "请输入",
+	"uni.msg.loading": "加载中...",
+	"uni.msg.remove.wraning": "确定要删除？",
+	"uni.msg.time": "时间",
+	"uni.msg.language.switch": "多语言切换",
+	"uni.msg.home": "首页",
+	"uni.msg.about": "我的",
+	"uni.msg.zh.Hans": "中文简体",
+	"uni.msg.zh.Hant": "中文繁体",
+	"uni.msg.en": "英文",
+	"uni.msg.setting": "设置",
+	"uni.msg.no.more": "暂无数据"
+}

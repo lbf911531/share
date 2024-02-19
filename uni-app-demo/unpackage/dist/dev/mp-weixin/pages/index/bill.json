@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "uni-table": "/node-modules/@dcloudio/uni-ui/lib/uni-table/uni-table",
+    "uni-tr": "/node-modules/@dcloudio/uni-ui/lib/uni-tr/uni-tr",
+    "uni-th": "/node-modules/@dcloudio/uni-ui/lib/uni-th/uni-th",
+    "uni-td": "/node-modules/@dcloudio/uni-ui/lib/uni-td/uni-td",
+    "uni-icons": "/node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons"
+  },
+  "component": true
+}

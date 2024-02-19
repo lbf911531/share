@@ -1,0 +1,19 @@
+{
+	"uni.msg.cancel": "Cancel",
+	"uni.msg.confirm": "OK",
+	"uni.msg.bill.add": "Add bill",
+	"uni.msg.item": "Item",
+	"uni.msg.amount": "Amount",
+	"uni.msg.please.enter": "Please enter",
+	"uni.msg.loading": "loading...",
+	"uni.msg.remove.wraning": "Are you sure you want to delete it?",
+	"uni.msg.time": "Time",
+	"uni.msg.language.switch": "Multilingual switching",
+	"uni.msg.home": "Home",
+	"uni.msg.about": "About",
+	"uni.msg.zh.Hans": "ZH-Hans",
+	"uni.msg.zh.Hant": "ZH-HanT",
+	"uni.msg.en": "English",
+	"uni.msg.setting": "Setting",
+	"uni.msg.no.more": "Empty"
+}

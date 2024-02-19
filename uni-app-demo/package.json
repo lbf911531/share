@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.4.28",
+    "vue-i18n": "^9.8.0"
+  }
+}
