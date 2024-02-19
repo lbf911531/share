@@ -1,0 +1,1 @@
+import{a as s}from"./vendor.chunks.js";const o="c.js",n={name:"a",age:10},a=()=>{console.log(n,o)};a();const c=2;console.log("from b.js:",o);function e(){console.log(n.age+c),console.log(s),console.log("env:",TYPE)}e();
