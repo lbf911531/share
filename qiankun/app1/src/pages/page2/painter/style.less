@@ -1,0 +1,26 @@
+.cpt-painter-component {
+  .cpt-painter-wrap {
+    background-color: #000;
+  }
+
+  .painter-toolbar {
+    display         : flex;
+    background-color: rgba(0, 0, 0, 0.1);
+
+
+    .painter-toolbar-item {
+      padding    : 0 4px;
+      height     : 32px;
+      display    : flex;
+      align-items: center;
+      cursor     : pointer;
+      &.selected {
+        background-color: rgba(0, 0, 0, 0.16);
+      }
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.16);
+      }
+    }
+  }
+}

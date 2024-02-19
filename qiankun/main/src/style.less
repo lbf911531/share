@@ -12,7 +12,7 @@
     background-color: @global-background;
     display         : flex;
     flex-direction  : column;
-    transition: width 0.3s ease-in-out;
+    transition      : width 0.3s ease-in-out;
 
     .global-header {
       height: 54px;
@@ -25,6 +25,19 @@
     .global-content {
       flex    : 1;
       overflow: auto;
+
+      &.micro-app-gl-content {
+        overflow: hidden;
+
+        #root {
+          height  : calc(100vh - 54px);
+          overflow: auto;
+
+          .global-content {
+            overflow: hidden;
+          }
+        }
+      }
     }
   }
 

@@ -20,6 +20,14 @@ const config = {
   },
   qiankun: {
     master: {}
+  },
+  proxy: {
+
+    '/api': {
+      target: "https://www.baidu.com",
+      changeOrigin: true,
+      pathRewrite: { "^/api": "" },
+    },
   }
   // qiankun: {
   //   master: {

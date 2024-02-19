@@ -15,7 +15,7 @@ function GlobalContent({
   const masterProps = useModel('@@qiankunStateFromMaster');
 
 
-  if (masterProps.type === 'component' && microAppComponentList[masterProps.componentName]) {
+  if (masterProps?.type === 'component' && microAppComponentList[masterProps.componentName]) {
     // 如果约定的type是component表示是要渲染组件，
     return (
       React.createElement(
@@ -29,7 +29,7 @@ function GlobalContent({
     ['app1', 'app2'].includes(moduleName) && NAME === 'main'
   ) {
     return (
-      <div className="global-content">
+      <div className="global-content micro-app-gl-content">
         <MicroApp
           name={moduleName}
           autoSetLoading

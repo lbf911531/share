@@ -2,8 +2,8 @@
   "name": "app1",
   "private": true,
   "scripts": {
-    "start": "umi dev",
-    "build": "umi build",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && umi dev",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && umi build",
     "postinstall": "umi generate tmp",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
@@ -21,10 +21,14 @@
     ]
   },
   "dependencies": {
+    "@ant-design/icons": "^5.2.6",
     "@ant-design/pro-layout": "^7.16.9",
+    "ahooks": "^3.7.8",
     "antd": "^5.8.4",
+    "gsap": "^3.12.2",
     "react": "17.x",
     "react-dom": "17.x",
+    "three": "^0.156.0",
     "umi": "^3.5.41"
   },
   "devDependencies": {

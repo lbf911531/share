@@ -24,6 +24,19 @@
     .global-content {
       flex    : 1;
       overflow: auto;
+
+      &.micro-app-gl-content {
+        overflow: hidden;
+
+        #root {
+          height  : calc(100vh - 54px);
+          overflow: auto;
+
+          .global-content {
+            overflow: hidden;
+          }
+        }
+      }
     }
   }
 }

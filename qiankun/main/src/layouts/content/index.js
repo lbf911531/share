@@ -17,7 +17,7 @@ function GlobalContent({
     ['app1', 'app2'].includes(moduleName) && NAME === 'main'
   ) {
     return (
-      <div className="global-content">
+      <div className="global-content micro-app-gl-content">
         <MicroApp 
           name={moduleName} 
           autoSetLoading 
